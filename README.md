@@ -7,3 +7,15 @@ The backend code handles incoming requests from the frontend, processes data, an
 By using Node.js and Express, the backend is able to handle concurrent requests efficiently and provide a scalable solution. MongoDB offers flexibility in data modeling and allows for easy integration with Node.js applications.
 
 Overall, this backend application plays a crucial role in the functionality and performance of the CRUD app, enabling users to create, read, update, and delete data seamlessly.
+
+## Installation
+
+To install the project, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your-username/crud-app-backend.git`
+2. Navigate to the project directory: `cd crud-app-backend`
+3. Install the dependencies: `npm install`
+4. Set up the MongoDB connection by updating the `MONGODB_PASSWORD` in the `.env` file.
+5. Start the server: `npm start`
+
+After following these steps, the project will be successfully installed and ready to use.
