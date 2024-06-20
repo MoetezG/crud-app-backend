@@ -15,7 +15,7 @@ To install the project, follow these steps:
 1. Clone the repository: `git clone https://github.com/your-username/crud-app-backend.git`
 2. Navigate to the project directory: `cd crud-app-backend`
 3. Install the dependencies: `npm install`
-4. Set up the MongoDB connection by updating the `MONGODB_PASSWORD` in the `.env` file.
-5. Start the server: `npm start`
+4. Set up the MongoDB connection by updating the `MONGODB_PASSWORD and the URL` in the `.env` file.
+6. Start the server: `npm start`
 
 After following these steps, the project will be successfully installed and ready to use.
