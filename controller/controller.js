@@ -10,6 +10,7 @@ const createProduct = async (req, res) => {
 };
 const getProducts = async (req, res) => {
   try {
+<<<<<<< HEAD
     const category = req.query.category || "";
     const search = req.query.search || "";
     const sortOrder =
@@ -36,6 +37,9 @@ const getProducts = async (req, res) => {
       ...searchKeyword,
     }).sort({ price: sortOrder === "asc" ? 1 : -1 });
 
+=======
+    const products = await Product.find();
+>>>>>>> fd86776ccc3ec999bb96f3380f29b8e6bae0f5dc
     if (products.length === 0) {
       return res.send("No products found").status(404);
     } else {
